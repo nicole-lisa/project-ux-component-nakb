@@ -1,1 +1,9 @@
+body {
+  background-color: black;
+}
+article {
+  background-color: white;
+  margin: 0 20%;
+  padding: 5%;
 
+}
