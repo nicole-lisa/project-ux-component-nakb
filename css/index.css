@@ -5,5 +5,11 @@ article {
   background-color: white;
   margin: 0 20%;
   padding: 5%;
-
+}
+#logo {
+  width: 5em;
+  padding: 0.5em;
+}
+h1 {
+  color: white;
 }
