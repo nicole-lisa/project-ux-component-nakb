@@ -1,14 +1,25 @@
 body {
-  background-color: black;
+  background-color: #ecebec;
 }
 article {
   background-color: white;
-  margin: 0 20%;
+  margin: 0 10%;
   padding: 5%;
 }
-#logo {
-  width: 5em;
-  padding: 0.5em;
+.grid-container-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+}
+.item-nba {
+  text-align: left;
+}
+.item-search {
+  text-align: right;
+}
+.nav-icons {
+  height: 1.5em;
+  width: auto;
 }
 h1 {
   color: white;
