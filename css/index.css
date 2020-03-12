@@ -1,16 +1,16 @@
 body {
-  background-color: #ecebec;
+  background-color: #ffffff;
 }
 article {
-  background-color: white;
+  background-color: inherit;
   margin: 0 10%;
   padding: 5%;
 }
 .grid-container-nav {
+  background-color: #000000;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em;
-  color: black;
 }
 .item-nba {
   text-align: left;
