@@ -10,6 +10,7 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em;
+  color: black;
 }
 .item-nba {
   text-align: left;
@@ -21,6 +22,74 @@ article {
   height: 1.5em;
   width: auto;
 }
+.progress-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 5px solid #000000;
+}
+.progress {
+  background-color: #000000;
+  height: 20px;
+  width: 0px;
+}
+.ball {
+  height: 20px;
+  width: auto;
+  position: sticky;
+}
 h1 {
   color: white;
 }
+h2 {
+  font-family: 'Arya', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1em;
+
+  }
+
+h4{
+  font-family: 'Arya', sans-serif ;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+h5{
+  font-family: 'Merriweather', serif;
+  font-style: oblique;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Merriweather', serif ;
+  line-height: 1.8em;
+}
+
+footer {
+  background-color: #8c8c8c;
+  padding: 1em;
+}
+.nba {
+  height: 40px;
+  width: auto;
+}
+
+/* For laptop view */
+@media screen and (min-width: 1024px){
+  .raptors-article {
+    margin: 0 20%;
+    width: 60%;
+  }
+}
+/* For laptop view*/
+@media screen and (min-width: 1440px){
+  .raptors-article {
+    margin: 0 29%;
+    width: 42%;
+  }
+} 
