@@ -1,10 +1,8 @@
 body {
-  background-color: #ecebec;
+  background-color: #ffffff;
 }
-article {
-  background-color: white;
-  margin: 0 10%;
-  padding: 5%;
+.raptors-article {
+  margin: 0 6%;
 }
 .grid-container-nav {
   display: grid;
@@ -24,3 +22,50 @@ article {
 h1 {
   color: white;
 }
+.progress-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 5px solid #000000;
+}
+.progress {
+  background-color: #000000;
+  height: 20px;
+  width: 0px;
+}
+.ball {
+  height: 20px;
+  width: auto;
+  position: sticky;
+}
+footer {
+  background-color: #8c8c8c;
+  padding: 1em;
+}
+.nba {
+  height: 40px;
+  width: auto;
+}
+/* For tablet view */
+@media screen and (min-width: 768px){
+  .raptors-article {
+    margin: 0 10%;
+  }
+}
+/* For laptop view */
+@media screen and (min-width: 1024px){
+  .raptors-article {
+    margin: 0 20%;
+    width: 60%;
+  }
+}
+/* For laptop view*/
+@media screen and (min-width: 1440px){
+  .raptors-article {
+    margin: 0 29%;
+    width: 42%;
+  }
+} 
