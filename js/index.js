@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> ed90ea075292a1e24709e31b2d204f736f9c7868
+>>>>>>> e004d18fcb2d91cf82df9f1ed00767646764298b
 // Listen for the window's scroll Event
 window.addEventListener(`scroll`, event => { 
 
