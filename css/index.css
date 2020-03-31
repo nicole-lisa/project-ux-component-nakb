@@ -113,7 +113,7 @@ p {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #4b0303;
+  background-color: #a11717;
   padding: 1em;
   height: 6em;
 }

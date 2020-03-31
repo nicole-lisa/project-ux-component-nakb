@@ -22,6 +22,7 @@ Design a component that can guide a user though content that is split into multi
 ## C) Infinitely load content
 When a user reached the bottom of a document, maintain the fluidity of the experience and engagement by loading new content. Ensure the user is made aware of new content (either upcoming, or already loading) and ensure a seamless, low-impact, responsible experience.
   - Once user reaches the bottom of the article, pop-up of upcoming article
+  - One scroll reaches bottom, triggers a animation of rotating square to 
  
 ## D) One component or tool of your choosing
 Use your own experiences to design and develop a component or tool that will improve the experience of a user reading or viewing a website. Consider looking for inspirations on sites like Dribbble (or others) that demonstrate UI animations or related experience upgrades.
