@@ -26,7 +26,7 @@ article {
   width:100%;
   margin:auto;
   overflow: hidden;
-  border: 0.5em solid gray;
+  border: 0.5em solid #479ce6;
   position: relative;
   border-radius: 1em;
 }
@@ -104,37 +104,54 @@ p {
   line-height: 1.8em;
 }
 .next{display: grid;
-
   background-color: #8c8c8c;
   padding: 1em;
   height: 15em;
 }
+.description-icon {
+  height: 5em;
+  width: auto;
+}
+
+.description-btn{
+  width: 100%;
+  text-align: left;
+  border-style: none;
+  background-color: #296ab1;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.2em;
+  padding:1em;
+}
+.description-btn:hover {
+  background-color: #479ce6;
+  color: white;
+}
 .modal {
+  color: white;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
+  transition: 400ms ease-in-out;
   z-index: 10;
-  background-color: white;
+  background-color: #296ab1;
   width: 500px;
   max-width: 80%;
+}
+.title img{
+  height: 1em;
+  width: auto;
 }
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
+
 .modal-header {
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
-}
-.modal-header .title{
-  font-size: 1.25rem;
-  font-weight: bold;
 }
 .modal-header .close-button{
   cursor: pointer;
@@ -145,7 +162,7 @@ p {
   font-weight: bold;
 }
 .modal-body {
-  padding: 10px 15px;
+  padding: 15px;
 }
 #overlay {
   position: fixed;
