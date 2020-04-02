@@ -117,28 +117,19 @@ p {
   width: 100%;
   text-align: left;
   border-style: none;
-  background-color: #296ab1;
+  background-color: #8c2c28;
+  ;
   color: white;
   font-family: sans-serif;
   font-size: 0.2em;
   padding:1em;
 }
 .description-btn:hover {
-  background-color: #479ce6;
+  background-color: #521412;
+ 
   color: white;
 }
-.modal {
-  color: white;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 400ms ease-in-out;
-  z-index: 10;
-  background-color: #296ab1;
-  width: 500px;
-  max-width: 80%;
-}
+
 .title img{
   height: 1em;
   width: auto;
@@ -146,38 +137,7 @@ p {
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
-.modal-header {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.modal-header .close-button{
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.25em;
-  font-weight: bold;
-}
-.modal-body {
-  padding: 15px;
-}
-#overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-}
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -207,3 +167,124 @@ footer {
     width: 42%;
   }
 } 
+
+
+/*custom cSS*/
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+/* Modal Content */
+.modal-content2 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  border-radius: 25px; /* Border Radius*/
+  border: 5px solid white;
+  max-width: 600px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/*Modal container*/
+
+.modal-header2 {
+  border-radius: 20px 20px 0px 0px;
+  padding: 12px 16px;
+  background-color: #8c2c28;
+  color: white;
+}
+
+.modal-body2 {
+  border-radius: 0 0 20px 20px;
+    background-image: url(../img/celebration1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.modal-body3 {
+  border-radius: 0 0 20px 20px;
+    background-image: url(../img/game1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.modal-body4 {
+  border-radius: 0 0 20px 20px;
+    background-image: url(../img/game2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.modal-body5 {
+  border-radius: 0 0 20px 20px;
+    background-image: url(../img/game5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.modal-body6 {
+  border-radius: 0 0 20px 20px;
+    background-image: url(../img/game4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.modal-footer2 {
+  border-radius: 0px 0px 20px 20px;
+  padding: 2px 16px;
+    background-color: #000000cc;
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+}
+
+/* The Close Button */
+.close2, .close3, .close4, .close5, .close6 {
+  color: white;
+  float: right;
+  font-size: 25px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.close2:hover, .close3:hover, .close4:hover, .close5:hover, .close6:hover {
+opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+}
