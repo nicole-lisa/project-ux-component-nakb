@@ -171,6 +171,7 @@ footer {
     margin: 0 29%;
     width: 42%;
   }
+
 } 
 
 
@@ -273,7 +274,10 @@ footer {
 .loader-btn{
   border: none;
   margin: 0 45%;
+  width: 5em;
+  height: 5em;
 }
+
 .modal-content7 {
   position: relative;
   background-color: #fefefe;
@@ -339,12 +343,11 @@ opacity: 0.6;
   text-decoration: none;
   cursor: pointer;
 }
-.heart {
+.loader {
   position: relative;
   width: 100px;
   height: 90px;
   margin: 30px;
-  
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
@@ -356,22 +359,22 @@ opacity: 0.6;
   -o-transform-origin: center center;
   transition: all 1s; 
 }
-.heart.css {  
+.loader.css {  
   -webkit-animation-delay:1s;
   -moz-animation-delay:1s;
   -ms-animation-delay:1s;
   -o-animation-delay:1s;
   animation-delay:1s;
 }
-.heart.animated {
+.loader.animated {
   -webkit-animation: 1600ms pulsate infinite alternate ease-in-out;
   -moz-animation: 1600ms pulsate infinite alternate ease-in-out;
   -ms-animation: 1600ms pulsate infinite alternate ease-in-out;
   -o-animation: 1600ms pulsate infinite alternate ease-in-out;
   animation: 1600ms pulsate infinite alternate ease-in-out;
 }
-.heart:before,
-.heart:after { 
+.loader:before,
+.loader:after { 
   position: absolute; 
   content: "";
   left: 50px;
@@ -392,7 +395,7 @@ opacity: 0.6;
        -o-transform-origin: 0 100%;
           transform-origin: 0 100%;
 }
-.heart:after {
+.loader:after {
   left: 0;
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);
@@ -405,7 +408,7 @@ opacity: 0.6;
        -o-transform-origin: 100% 100%;
           transform-origin :100% 100%;
 }
-.heart.css:hover {
+.loader.css:hover {
   -webkit-transform: scale(2);
   -moz-transform: scale(2);
   -ms-transform: scale(2);
